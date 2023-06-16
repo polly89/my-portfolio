@@ -1,0 +1,26 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+body{
+    font-family: Source Sans Pro;
+    color: #111111;
+    margin: 0px;
+    background-color:white;
+}
+button > svg {
+    margin-right: 5px;
+}
+@media (prefers-color-scheme: dark) {
+   body{
+    background-color: black;
+   }
+}
+
+.anchor {
+    visibility: hidden;
+    position: absolute;
+    top: -64px;
+}
