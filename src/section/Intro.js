@@ -59,7 +59,7 @@ const hyperlinkToRender = (hyperlink) => {
                   <a href={hyperlinkToRender(hyperlink)[1]}><Anchor className="pr-6 focus:ring-0" ><FaGithub size={24}/></Anchor></a>
                   <a href={hyperlinkToRender(hyperlink)[2]}><Anchor className="pr-6 focus:ring-0" ><FaYoutube size={24}/></Anchor></a>
                 </div>
-                <div className='-translate-y-56'>
+                <div className='-translate-y-56 md:translate-x-12 md:w-11/12'>
                   <Link 
                     to='projects-anchor' 
                     smooth={true} 
