@@ -37,7 +37,7 @@ function Intro(){
 
   const hyperlink = {
     linkedin:"https://www.linkedin.com/in/christina-woodhams-15956a247/",
-    github: "https://github.com/polly89",
+    github: "https://www.github.com/polly89",
     youtube: "https://www.youtube.com/channel/UCcPIPze5aPc4PRB5HCvfc0g"
 }
 const greeting = `HI, I'M CHRISTINA`
@@ -57,7 +57,7 @@ const hyperlinkToRender = (hyperlink) => {
                 <div className="invisible md:visible h-72 w-12 bg-slate-900 flex flex-col rounded justify-center p-2 gap-8 drop-shadow-md">
                   <a href={hyperlinkToRender(hyperlink)[0]}><Anchor className="pr-6 focus:ring-0" ><FaLinkedin size={24}/></Anchor></a>
                   <a href={hyperlinkToRender(hyperlink)[1]}><Anchor className="pr-6 focus:ring-0" ><FaGithub size={24}/></Anchor></a>
-                  <a href={hyperlinkToRender(hyperlink)[3]}><Anchor className="pr-6 focus:ring-0" ><FaYoutube size={24}/></Anchor></a>
+                  <a href={hyperlinkToRender(hyperlink)[2]}><Anchor className="pr-6 focus:ring-0" ><FaYoutube size={24}/></Anchor></a>
                 </div>
                 <div className='-translate-y-56'>
                   <Link 
