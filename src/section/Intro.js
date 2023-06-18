@@ -55,9 +55,9 @@ const hyperlinkToRender = (hyperlink) => {
             <h2 className='text-lg md:text-2xl lg:text-3xl p-24 lg:ml-46 lg:mr-46 xl:ml-56 xl:mr-56 dark:text-slate-400'>{description}</h2>
               <div>
                 <div className="invisible md:visible h-72 w-12 bg-slate-900 flex flex-col rounded justify-center p-2 gap-8 drop-shadow-md">
-                  <Anchor className="pr-6 focus:ring-0" href={hyperlinkToRender(hyperlink)[0]}><FaLinkedin size={24}/></Anchor>
-                  <Anchor className="pr-6 focus:ring-0" href={hyperlinkToRender(hyperlink)[1]}><FaGithub size={24}/></Anchor>
-                  <Anchor className="pr-6 focus:ring-0" href={hyperlinkToRender(hyperlink)[3]}><FaYoutube size={24}/></Anchor>
+                  <a href={hyperlinkToRender(hyperlink)[0]}><Anchor className="pr-6 focus:ring-0" ><FaLinkedin size={24}/></Anchor></a>
+                  <a href={hyperlinkToRender(hyperlink)[1]}><Anchor className="pr-6 focus:ring-0" ><FaGithub size={24}/></Anchor></a>
+                  <a href={hyperlinkToRender(hyperlink)[3]}><Anchor className="pr-6 focus:ring-0" ><FaYoutube size={24}/></Anchor></a>
                 </div>
                 <div className='-translate-y-56'>
                   <Link 
